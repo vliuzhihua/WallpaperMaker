@@ -15,7 +15,7 @@ MESSAGE(STATUS "CLIENT_DIR_SRCS::: " ${CLIENT_DIR_SRCS} )
 #add_subdirectory(rapidjson)
 #add_library(rapidjson STATIC ${LIB_SRC})
 INCLUDE_DIRECTORIES(
-    ../CImg
+    ../CImg-lib
     ../freetype-2.9/include
 )
 
